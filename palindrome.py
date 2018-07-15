@@ -1,4 +1,4 @@
-n=int(input("enter the input"))
+n=int(input(""))
 sum=0
 rem=0
 k=n
