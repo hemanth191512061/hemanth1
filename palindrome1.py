@@ -1,12 +1,12 @@
-n=int(input(""))
+x=int(input(""))
 sum=0
 rem=0
-k=n
+k=x
 while k>0:
     rem=k%10
     sum=sum*10+rem
     k=k//10
-if(sum==n):
+if(sum==x):
     print("yes")
 else:
     print("no")
