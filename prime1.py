@@ -1,7 +1,7 @@
-N=int(input(""))
-if(N<=1000):
- for k in range(2,N):
-    if N%k==0:
+z=int(input(""))
+if(z<=1000):
+ for k in range(2,z):
+    if z%k==0:
         print("no")
         break
     else:
